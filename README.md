@@ -2,16 +2,6 @@
 Provides a Objected-Oriented API to create, draw and manipulate barcode data using DHL (Deutsche Post) standards
 
 ## Example
-Required packages...
-```json
-{
-    "require": {
-        "rafsalvioni/zeus-barcode-dhl": "1.*",
-        "rafsalvioni/zeus-barcode-renderer-svg": "1.*"
-    }
-}
-```
-Code example
 ```php
 <?php
 require 'vendor/autoload.php';
