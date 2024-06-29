@@ -2,21 +2,19 @@
 
 namespace ZeusTest\Barcode\DHL;
 
-use ZeusTest\Barcode\Code2of5\Interleaved25Test;
 use Zeus\Barcode\DHL\Identcode;
 
 /**
  * 
  * @author Rafael M. Salvioni
  */
-class IdentcodeTest extends Interleaved25Test
+class IdentcodeTest extends \PHPUnit_Framework_TestCase
 {
     /**
      * @test
      */
     public function validationTest()
     {
-        parent::validationTest();
         $dataArr = [
             '563102430313'    => [true, true],
             '563102430314'    => [true, false],

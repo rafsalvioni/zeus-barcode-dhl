@@ -9,14 +9,13 @@ use Zeus\Barcode\DHL\Leitcode;
  * 
  * @author Rafael M. Salvioni
  */
-class LeitcodeTest extends Interleaved25Test
+class LeitcodeTest extends \PHPUnit_Framework_TestCase
 {
     /**
      * @test
      */
     public function validationTest()
     {
-        parent::validationTest();
         $dataArr = [
             '21348075016401'   => [true, true],
             '21348075016403'   => [true, false],
