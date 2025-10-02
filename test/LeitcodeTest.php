@@ -9,7 +9,7 @@ use Zeus\Barcode\DHL\Leitcode;
  * 
  * @author Rafael M. Salvioni
  */
-class LeitcodeTest extends \PHPUnit_Framework_TestCase
+class LeitcodeTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @test

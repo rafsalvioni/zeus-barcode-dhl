@@ -8,7 +8,7 @@ use Zeus\Barcode\DHL\Identcode;
  * 
  * @author Rafael M. Salvioni
  */
-class IdentcodeTest extends \PHPUnit_Framework_TestCase
+class IdentcodeTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @test
